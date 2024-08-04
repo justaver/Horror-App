@@ -1,0 +1,90 @@
+        SUMMARY OF THE HDF5 CONFIGURATION
+        =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.12.1
+                  Configured on: 2021-10-22
+                  Configured by: Ninja
+                    Host system: Windows-10.0.17763
+              Uname information: Windows
+                       Byte sex: little-endian
+             Installation point: /ucrt64
+
+Compiling Options:
+------------------
+                     Build Mode: Release
+              Debugging Symbols: OFF
+                        Asserts: OFF
+                      Profiling: OFF
+             Optimization Level: OFF
+
+Linking Options:
+----------------
+                      Libraries: 
+  Statically Linked Executables: OFF
+                        LDFLAGS: -pipe
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+                Extra libraries: m;ws2_32;wsock32
+                       Archiver: /ucrt64/bin/ar.exe
+                         Ranlib: /ucrt64/bin/ranlib.exe
+
+Languages:
+----------
+                              C: YES
+                     C Compiler: /ucrt64/bin/gcc.exe 11.2.0
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+                         CFLAGS:   -std=c99 -march=x86-64 -mtune=generic -O2 -pipe -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0
+                      H5_CFLAGS: 
+                      AM_CFLAGS: 
+               Shared C Library: YES
+               Static C Library: YES
+
+                        Fortran: ON
+               Fortran Compiler: /ucrt64/bin/gfortran.exe 11.2.0
+                  Fortran Flags:  -fdiagnostics-urls=never -fno-diagnostics-color
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: YES
+         Static Fortran Library: YES
+
+                            C++: ON
+                   C++ Compiler: /ucrt64/bin/g++.exe 11.2.0
+                      C++ Flags:     -fstdarg-opt -fdiagnostics-urls=never -fno-diagnostics-color -fmessage-length=0
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: YES
+             Static C++ Library: YES
+
+                            JAVA: OFF
+                 JAVA Compiler:  
+
+Features:
+---------
+                   Parallel HDF5: OFF
+Parallel Filtered Dataset Writes: 
+              Large Parallel I/O: 
+              High-level library: ON
+                Build HDF5 Tests: OFF
+                Build HDF5 Tools: ON
+                    Threadsafety: OFF (recursive RW locks: ) 
+             Default API mapping: v112
+  With deprecated public symbols: ON
+          I/O filters (external):  DEFLATE DECODE
+                             MPE: 
+                      Direct VFD: 
+                      Mirror VFD: 
+              (Read-Only) S3 VFD: 
+            (Read-Only) HDFS VFD: 
+                         dmalloc: 
+  Packages w/ extra debug output: 
+                     API Tracing: OFF
+            Using memory checker: OFF
+ Memory allocation sanity checks: OFF
+          Function Stack Tracing: OFF
+                Use file locking: best-effort
+       Strict File Format Checks: OFF
+    Optimization Instrumentation: 

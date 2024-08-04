@@ -1,0 +1,11 @@
+prefix=/ucrt64
+exec_prefix=${prefix}
+includedir=/ucrt64/include
+libdir=/ucrt64/lib
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.11
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpugixml

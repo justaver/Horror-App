@@ -1,0 +1,14 @@
+prefix=/ucrt64
+exec_prefix=${prefix}
+libdir=/ucrt64/lib
+includedir=/ucrt64/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.110.100
+Requires: 
+Requires.private: libswscale >= 5.9.100, libpostproc >= 55.9.100, libavformat >= 58.76.100, libavcodec >= 58.134.100, libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm -L/ucrt64/lib -lass -L/ucrt64/lib -lfontconfig -lfreetype -L/ucrt64/lib -lfreetype -ldl -L/ucrt64/lib -lmfx -lstdc++
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/ucrt64
+exec_prefix=/ucrt64
+libdir=/ucrt64/lib
+includedir=/ucrt64/include
+
+Name: Vulkan-Loader
+Description: Vulkan Loader
+Version: 1.2.194
+Libs: -L${libdir} -lvulkan
+Libs.private:  -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lkernel32
+Cflags: -I${includedir}
+

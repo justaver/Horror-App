@@ -1,0 +1,14 @@
+prefix=/ucrt64
+exec_prefix=${prefix}
+libdir=/ucrt64/lib
+includedir=/ucrt64/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.134.100
+Requires: 
+Requires.private: libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/ucrt64/lib -lvpx -lm -L/ucrt64/lib -lvpx -lm -L/ucrt64/lib -lvpx -lm -L/ucrt64/lib -lvpx -lm -L/ucrt64/lib -lwebpmux -lwebp -liconv -lm -llzma -lcelt0 -L/ucrt64/lib -ldav1d -lopencore-amrwb -L/ucrt64/lib -lz -L/ucrt64/lib -laom -lgsm -lmp3lame -lm -lopencore-amrnb -L/ucrt64/lib -lopenjp2 -L/ucrt64/lib -lopus -L/ucrt64/lib -lspeex -ltheoraenc -ltheoradec -logg -L/ucrt64/lib -lvorbis -L/ucrt64/lib -lvorbisenc -L/ucrt64/lib -lwebp -L/ucrt64/lib -lx264 -L/ucrt64/lib -lx265 -lxvidcore -lmfplat -lmfuuid -lole32 -lstrmiids -lole32 -luser32 -ldl -L/ucrt64/lib -lmfx -lstdc++
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/ucrt64
+exec_prefix=${prefix}
+libdir=/ucrt64/lib
+includedir=/ucrt64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm -L/ucrt64/lib -lmfx -lstdc++ -luser32 -L/ucrt64/lib -lvulkan -lbcrypt -ldl
+Cflags: -I${includedir}
