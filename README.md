@@ -47,9 +47,9 @@ FrightCritic is currently under active development.
 -GTK was chosen for its lightweight nature and compatibility with C, allowing for the creation of efficient and responsive graphical user interfaces.
 
 ## Future Plans
--Expand the movie database with more entries and detailed metadata.
--Introduce user profiles and social interactions like friend requests.
--Add advanced sorting and filtering options for rooms and reviews.
--Implement community moderation tools for managing room discussions.
+Expand the movie database with more entries and detailed metadata.
+Introduce user profiles and social interactions like friend requests.
+Add advanced sorting and filtering options for rooms and reviews.
+Implement community moderation tools for managing room discussions.
 
 
