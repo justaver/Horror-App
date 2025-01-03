@@ -21,10 +21,10 @@ FrightCritic is a social platform for horror movie enthusiasts, built entirely i
 -Windows for different sections (Rooms, Movies).
 -Input fields for user-generated content.
 
-##Current Status:
+## Current Status:
 FrightCritic is currently under active development. 
 
-##Goals for 2024:
+## Goals for 2024:
 -Learn the basic functionalities of GTK.
 
 ## Goals for 2025:
